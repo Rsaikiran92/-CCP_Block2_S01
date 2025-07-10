@@ -1,0 +1,18 @@
+.home{
+    padding: 20px 40px;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+}
+.list>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.list>div:hover{
+    cursor: pointer;
+    
+}
